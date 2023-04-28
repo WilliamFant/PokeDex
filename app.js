@@ -4,7 +4,7 @@ console.log('yo');
 
 const pokeContainer = document.querySelector('#container')
 // Number of Pokemon (AKA objects) using the first 150 pokemon in the PokeAPI
-const numbOfPokemon = 152
+const numbOfPokemon = 152;
 
 // The createPokeCard function creates a new card (AKA section element) and adds the new card to the DOM inside of the div with the id of "container"
 function createPokeCard (pokemon) {
